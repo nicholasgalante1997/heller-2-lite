@@ -1,16 +1,25 @@
 {
   "name": "heller-2-lite",
-  "version": "1.0.0",
-  "description": "",
-  "files": ["build"],
+  "version": "0.0.1",
+  "description": "A minimal css token library.",
+  "files": [
+    "build"
+  ],
   "scripts": {
     "clean:sd": "rm -rf build",
-    "build:sd": "style-dictionary build"
+    "build:sd": "style-dictionary build",
+    "build:readme": "cp README.md build/README.md",
+    "build": "run-s clean:sd build:sd build:readme",
+    "release": "release-it",
+    "lint": "prettier --write src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.1.1",
+    "release-it": "^17.0.1",
     "style-dictionary": "^3.9.1"
   }
 }

@@ -1,9 +1,16 @@
 {
   "color": {
     "font": {
-      "base"     : { "value": "{color.base.red.value}" },
-      "secondary": { "value": "{color.base.green.value}" },
-      "tertiary" : { "value": "{color.base.gray.light.value}" }
+      "dark": {
+        "highContrast": { "value": "rgba(255, 255, 255, 0.87)" },
+        "mediumContrast": { "value": "rgba(255, 255, 255, 0.60)" },
+        "lowContrast": { "value": "rgba(255, 255, 255, 0.38)" }
+      },
+      "light": {
+        "highContrast": { "value": "{color.base.black.oil}" },
+        "mediumContrast": { "value": "{color.base.black.oil}" },
+        "lowContrast": { "value": "{color.base.black.oil}" }
+      }
     }
   }
 }

@@ -1,0 +1,18 @@
+{
+    "size": {
+        "spacing": {
+            
+            "none": { "value": 0 },
+
+            "small-100": { "value": 0.125 },
+            "small-200": { "value": 0.25 },
+
+            "medium-100": { "value": 0.5 },
+            "medium-200": { "value": 0.75 },
+
+            "large-100": { "value": 1 },
+            "large-200": { "value": 1.5 }
+
+        }
+    }
+}

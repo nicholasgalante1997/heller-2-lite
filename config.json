@@ -25,19 +25,19 @@
       "files": [
         {
           "format": "javascript/es6",
-          "destination": "styles.mjs"
+          "destination": "esm/index.mjs"
         },
         {
           "format": "typescript/es6-declarations",
-          "destination": "styles-mjs.d.ts"
+          "destination": "esm/index.d.ts"
         },
         {
           "format": "javascript/module",
-          "destination": "styles.cjs"
+          "destination": "cjs/index.cjs"
         },
         {
           "format": "typescript/module-declarations",
-          "destination": "styles-cjs.d.ts"
+          "destination": "cjs/index.d.ts"
         }
       ]
     }
