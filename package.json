@@ -5,11 +5,17 @@
   "files": [
     "build"
   ],
+  "exports": {
+    ".": "./build/js/esm.mjs",
+    "./styles.cjs": "./build/js/commonjs.cjs",
+    "./styles.mjs": "./build/js/esm.mjs",
+    "./package.json": "./package.json"
+  },
   "scripts": {
     "clean:sd": "rm -rf build",
     "build:sd": "style-dictionary build",
-    "build:readme": "cp README.md build/README.md",
-    "build": "run-s clean:sd build:sd build:readme",
+    "copy:composite-css": "cp -R src/composite/*.css ./build/css/",
+    "build": "run-s clean:sd build:sd copy:composite-css",
     "release": "release-it",
     "lint": "prettier --write src"
   },

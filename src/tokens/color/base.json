@@ -2,42 +2,44 @@
   "color": {
     "base": {
       "black": {
-        "oil": { "value": "#0C0C0C" },
-        "obsidian": { "value": "#0B1215" },
-        "slate": { "value": "#0D1717" },
-        "midnight": { "value": "#101720" },
-        "charcoal": { "value": "#171717" },
-        "deepNavy": { "value": "#011222" },
-        "richBlack": { "value": "#020D19" }
+        "alpha": { "value": "#0C0C0C" },
+        "beta": { "value": "#0B1215" },
+        "gamma": { "value": "#0D1717" },
+        "epsilon": { "value": "#101720" },
+        "theta": { "value": "#171717" },
+        "eta": { "value": "#011222" },
+        "iota": { "value": "#020D19" }
       },
       "white": {
-        "value": "#fff"
+        "alpha": {
+          "value": "#fff"
+        }
       },
       "purple": {
         "dark": {
-          "soft-100": { "value": "#f189ff" },
-          "soft-200": { "value": "#ee6bff" },
-          "soft-300": { "value": "#ea46ff" }
+          "alpha": { "value": "#f189ff" },
+          "beta": { "value": "#ee6bff" },
+          "gamma": { "value": "#ea46ff" }
         }
       },
       "green": {
         "dark": {
-          "soft-100": { "value": "#69dc9e" }
+          "alpha": { "value": "#69dc9e" }
         }
       },
       "blue": {
         "dark": {
-          "soft-100": { "value": "#c6e0ff" }
+          "alpha": { "value": "#c6e0ff" }
         },
         "light": {
-          "soft-100": { "value": "#3d405b" },
-          "soft-200": { "value": "#2b2d42" } 
+          "alpha": { "value": "#3d405b" },
+          "beta": { "value": "#2b2d42" }
         }
       },
       "red": {
         "light": {
-          "soft-100": { "value": "#e63946" },
-          "soft-200": { "value": "#d62828" }
+          "alpha": { "value": "#e63946" },
+          "beta": { "value": "#d62828" }
         }
       }
     }

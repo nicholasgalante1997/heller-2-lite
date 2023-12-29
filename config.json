@@ -2,7 +2,7 @@
   "source": ["src/tokens/**/*.json"],
   "platforms": {
     "scss": {
-      "transformGroup": "scss",
+      "transforms": ["attribute/cti", "name/cti/kebab", "content/icon", "size/px", "color/css"],
       "buildPath": "build/scss/",
       "files": [{
         "destination": "_variables.scss",
@@ -10,7 +10,7 @@
       }]
     },
     "css": {
-      "transformGroup": "css",
+      "transforms": ["attribute/cti", "name/cti/kebab", "content/icon", "size/px", "color/css"],
       "buildPath": "build/css/",
       "files": [
         {
@@ -20,24 +20,24 @@
       ]
     },
     "ts": {
-      "transformGroup": "js",
+      "transforms": ["attribute/cti", "name/cti/camel", "size/px", "color/hex"],
       "buildPath": "build/js/",
       "files": [
         {
           "format": "javascript/es6",
-          "destination": "esm/index.mjs"
+          "destination": "esm.mjs"
         },
         {
           "format": "typescript/es6-declarations",
-          "destination": "esm/index.d.ts"
+          "destination": "esm.d.ts"
         },
         {
           "format": "javascript/module",
-          "destination": "cjs/index.cjs"
+          "destination": "commonjs.cjs"
         },
         {
           "format": "typescript/module-declarations",
-          "destination": "cjs/index.d.ts"
+          "destination": "commonjs.d.ts"
         }
       ]
     }

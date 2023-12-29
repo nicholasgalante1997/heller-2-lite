@@ -1,0 +1,62 @@
+.heller2-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  outline: 0;
+  box-sizing: border-box;
+  padding: var(--size-spacing-none) var(--size-spacing-large-100);
+  transition: all 0.3s;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.heller2-button.rounded {
+  border-radius: var(--border-radius-rad-700);
+}
+
+.heller2-button,
+.heller2-button[data-hsize="medium"] {
+  min-width: 170px;
+  height: 48px;
+  font-size: var(--font-size-body-normal);
+  font-weight: var(--font-weight-heavy);
+  letter-spacing: -0.8px;
+  line-height: 24px;
+}
+
+.heller2-button[data-hsize="small"] {
+  min-width: 140px;
+  height: 40px;
+  font-size: var(--font-size-body-normal);
+  font-weight: var(--font-weight-heavy);
+  letter-spacing: -0.8px;
+  line-height: 24px;
+}
+
+.heller2-button[data-hsize="large"] {
+  min-width: 184px;
+  height: 52px;
+  font-size: var(--font-size-body-normal);
+  font-weight: var(--font-weight-heavy);
+  letter-spacing: -0.8px;
+  line-height: 24px;
+}
+
+.heller2-button,
+.heller2-theme[data-theme-mode="light"] .heller2-button {
+  background-color: var(--color-base-white-alpha);
+  border: 2px solid var(--color-base-black-alpha);
+  color: var(--color-base-black-alpha);
+  fill: var(--color-base-black-alpha);
+}
+
+.heller2-theme[data-theme-mode="dark"] .heller2-button {
+  background-color: var(--color-base-white-alpha);
+  border: 2px solid var(--color-base-white-alpha);
+  color: var(--color-base-black-alpha);
+  fill: var(--color-base-black-alpha);
+}

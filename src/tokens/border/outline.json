@@ -1,0 +1,22 @@
+{
+  "border": {
+    "outline": {
+      "dark": {
+        "thin": {
+          "value": "1px solid {color.base.white.alpha}"
+        },
+        "thick": {
+          "value": "3px solid {color.base.white.alpha}"
+        }
+      },
+      "light": {
+        "thin": {
+          "value": "1px solid {color.base.black.gamma}"
+        },
+        "thick": {
+          "value": "3px solid {color.base.black.gamma}"
+        }
+      }
+    }
+  }
+}
