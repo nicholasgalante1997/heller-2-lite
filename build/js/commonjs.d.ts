@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 29 Dec 2023 07:05:16 GMT
+ * Generated on Fri, 29 Dec 2023 21:35:07 GMT
  */
 
 export default tokens;
@@ -86,8 +86,7 @@ declare const tokens: {
           "alpha": DesignToken
         },
         "light": {
-          "alpha": DesignToken,
-          "beta": DesignToken
+          "alpha": DesignToken
         }
       },
       "red": {

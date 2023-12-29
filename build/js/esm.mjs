@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 29 Dec 2023 07:05:16 GMT
+ * Generated on Fri, 29 Dec 2023 21:35:07 GMT
  */
 
 export const borderOutlineDarkThin = "1px solid #ffffff";
@@ -32,9 +32,8 @@ export const colorBasePurpleDarkAlpha = "#f189ff";
 export const colorBasePurpleDarkBeta = "#ee6bff";
 export const colorBasePurpleDarkGamma = "#ea46ff";
 export const colorBaseGreenDarkAlpha = "#69dc9e";
-export const colorBaseBlueDarkAlpha = "#c6e0ff";
-export const colorBaseBlueLightAlpha = "#3d405b";
-export const colorBaseBlueLightBeta = "#2b2d42";
+export const colorBaseBlueDarkAlpha = "#9eb7e5";
+export const colorBaseBlueLightAlpha = "#c6e0ff";
 export const colorBaseRedLightAlpha = "#e63946";
 export const colorBaseRedLightBeta = "#d62828";
 export const colorFontDarkContrastHigh = "#ffffff";

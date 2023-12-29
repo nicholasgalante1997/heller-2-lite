@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 29 Dec 2023 07:05:16 GMT
+ * Generated on Fri, 29 Dec 2023 21:35:07 GMT
  */
 
 export const borderOutlineDarkThin : string;
@@ -34,7 +34,6 @@ export const colorBasePurpleDarkGamma : string;
 export const colorBaseGreenDarkAlpha : string;
 export const colorBaseBlueDarkAlpha : string;
 export const colorBaseBlueLightAlpha : string;
-export const colorBaseBlueLightBeta : string;
 export const colorBaseRedLightAlpha : string;
 export const colorBaseRedLightBeta : string;
 export const colorFontDarkContrastHigh : string;

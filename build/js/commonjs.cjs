@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 29 Dec 2023 07:05:16 GMT
+ * Generated on Fri, 29 Dec 2023 21:35:07 GMT
  */
 
 module.exports = {
@@ -628,11 +628,11 @@ module.exports = {
       "blue": {
         "dark": {
           "alpha": {
-            "value": "#c6e0ff",
+            "value": "#9eb7e5",
             "filePath": "src/tokens/color/base.json",
             "isSource": true,
             "original": {
-              "value": "#c6e0ff"
+              "value": "#9eb7e5"
             },
             "name": "colorBaseBlueDarkAlpha",
             "attributes": {
@@ -653,11 +653,11 @@ module.exports = {
         },
         "light": {
           "alpha": {
-            "value": "#3d405b",
+            "value": "#c6e0ff",
             "filePath": "src/tokens/color/base.json",
             "isSource": true,
             "original": {
-              "value": "#3d405b"
+              "value": "#c6e0ff"
             },
             "name": "colorBaseBlueLightAlpha",
             "attributes": {
@@ -673,29 +673,6 @@ module.exports = {
               "blue",
               "light",
               "alpha"
-            ]
-          },
-          "beta": {
-            "value": "#2b2d42",
-            "filePath": "src/tokens/color/base.json",
-            "isSource": true,
-            "original": {
-              "value": "#2b2d42"
-            },
-            "name": "colorBaseBlueLightBeta",
-            "attributes": {
-              "category": "color",
-              "type": "base",
-              "item": "blue",
-              "subitem": "light",
-              "state": "beta"
-            },
-            "path": [
-              "color",
-              "base",
-              "blue",
-              "light",
-              "beta"
             ]
           }
         }

@@ -29,11 +29,10 @@
       },
       "blue": {
         "dark": {
-          "alpha": { "value": "#c6e0ff" }
+          "alpha": { "value": "#9eb7e5" }
         },
         "light": {
-          "alpha": { "value": "#3d405b" },
-          "beta": { "value": "#2b2d42" }
+          "alpha": { "value": "#c6e0ff" }
         }
       },
       "red": {
