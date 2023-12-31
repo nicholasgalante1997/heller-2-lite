@@ -2,6 +2,7 @@
   "name": "heller-2-lite",
   "version": "0.0.4",
   "description": "A minimal css token library.",
+  "type": "module",
   "files": [
     "build"
   ],
@@ -14,7 +15,8 @@
   "scripts": {
     "clean:sd": "rm -rf build",
     "build:sd": "style-dictionary build",
-    "copy:composite-css": "cp -R src/composite/*.css ./build/css/",
+    "//copy:composite-css": "cp -R src/composite/*.css ./build/css/",
+    "copy:composite-css": "node ./src/postcss/index.js",
     "build": "run-s clean:sd build:sd copy:composite-css",
     "release": "release-it",
     "lint": "prettier --write src"
@@ -23,7 +25,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "cssnano": "^6.0.2",
+    "glob": "^10.3.10",
     "npm-run-all": "^4.1.5",
+    "pino": "^8.17.2",
+    "pino-pretty": "^10.3.1",
+    "postcss": "^8.4.32",
+    "postcss-cli": "^11.0.0",
     "prettier": "^3.1.1",
     "release-it": "^17.0.1",
     "style-dictionary": "^3.9.1"
