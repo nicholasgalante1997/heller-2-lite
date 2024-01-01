@@ -10,6 +10,10 @@
     ".": "./build/js/esm.mjs",
     "./styles.cjs": "./build/js/commonjs.cjs",
     "./styles.mjs": "./build/js/esm.mjs",
+    "./css/variables.css": "./build/css/variables.css",
+    "./css/base.min.css": "./build/css/base.min.css",
+    "./css/button.min.css": "./build/css/button.min.css",
+    "./scss/_variables.scss": "./build/scss/_variables.scss",
     "./package.json": "./package.json"
   },
   "scripts": {
