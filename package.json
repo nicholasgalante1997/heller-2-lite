@@ -1,6 +1,6 @@
 {
   "name": "heller-2-lite",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "A minimal css token library.",
   "type": "module",
   "files": [
