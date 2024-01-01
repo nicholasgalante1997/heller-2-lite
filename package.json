@@ -15,7 +15,6 @@
   "scripts": {
     "clean:sd": "rm -rf build",
     "build:sd": "style-dictionary build",
-    "//copy:composite-css": "cp -R src/composite/*.css ./build/css/",
     "copy:composite-css": "node ./src/postcss/index.js",
     "build": "run-s clean:sd build:sd copy:composite-css",
     "release": "release-it",

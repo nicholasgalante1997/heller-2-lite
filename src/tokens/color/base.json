@@ -15,30 +15,29 @@
           "value": "#fff"
         }
       },
-      "purple": {
-        "dark": {
-          "alpha": { "value": "#f189ff" },
-          "beta": { "value": "#ee6bff" },
-          "gamma": { "value": "#ea46ff" }
-        }
-      },
       "green": {
-        "dark": {
-          "alpha": { "value": "#69dc9e" }
-        }
+        "primary": { "value": "#69dc9e" }
       },
       "blue": {
-        "dark": {
-          "alpha": { "value": "#9eb7e5" }
-        },
-        "light": {
-          "alpha": { "value": "#c6e0ff" }
-        }
+        "primary": { "value": "#3f37c9" },
+        "secondary": { "value": "#4361ee" }
       },
-      "red": {
-        "light": {
-          "alpha": { "value": "#e63946" },
-          "beta": { "value": "#d62828" }
+      "synthwave": {
+        "pink": {
+          "primary": { "value": "#f72585" },
+          "secondary": { "value": "#b5179e" }
+        },
+        "purple": {
+          "primary": { "value": "#7209b7" },
+          "secondary": { "value": "#560bad" },
+          "tertiary": { "value": "#480ca8" },
+          "quadratic": { "value": "#3a0ca3" }
+        },
+        "blue": {
+          "primary": { "value": "#3f37c9" },
+          "secondary": { "value": "#4361ee" },
+          "tertiary": { "value": "#4895ef" },
+          "quadratic": { "value": "#4cc9f0" }
         }
       }
     }

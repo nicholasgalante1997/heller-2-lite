@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Sun, 31 Dec 2023 16:53:06 GMT
+ * Generated on Mon, 01 Jan 2024 01:27:35 GMT
  */
 
 export default tokens;
@@ -24,12 +24,15 @@ declare interface DesignToken {
 declare const tokens: {
   "border": {
     "outline": {
+      "none": DesignToken,
       "dark": {
         "thin": DesignToken,
+        "medium": DesignToken,
         "thick": DesignToken
       },
       "light": {
         "thin": DesignToken,
+        "medium": DesignToken,
         "thick": DesignToken
       }
     },
@@ -42,6 +45,8 @@ declare const tokens: {
       "rad-500": DesignToken,
       "rad-600": DesignToken,
       "rad-700": DesignToken,
+      "rad-800": DesignToken,
+      "rad-900": DesignToken,
       "max": DesignToken
     }
   },
@@ -69,30 +74,55 @@ declare const tokens: {
       "white": {
         "alpha": DesignToken
       },
-      "purple": {
-        "dark": {
-          "alpha": DesignToken,
-          "beta": DesignToken,
-          "gamma": DesignToken
-        }
-      },
       "green": {
-        "dark": {
-          "alpha": DesignToken
-        }
+        "primary": DesignToken
       },
       "blue": {
-        "dark": {
-          "alpha": DesignToken
+        "primary": DesignToken,
+        "secondary": DesignToken
+      },
+      "synthwave": {
+        "pink": {
+          "primary": DesignToken,
+          "secondary": DesignToken
         },
-        "light": {
-          "alpha": DesignToken
+        "purple": {
+          "primary": DesignToken,
+          "secondary": DesignToken,
+          "tertiary": DesignToken,
+          "quadratic": DesignToken
+        },
+        "blue": {
+          "primary": DesignToken,
+          "secondary": DesignToken,
+          "tertiary": DesignToken,
+          "quadratic": DesignToken
+        }
+      }
+    },
+    "button": {
+      "light": {
+        "background": {
+          "primary": DesignToken,
+          "secondary": DesignToken,
+          "tertiary": DesignToken
+        },
+        "color": {
+          "primary": DesignToken,
+          "secondary": DesignToken,
+          "tertiary": DesignToken
         }
       },
-      "red": {
-        "light": {
-          "alpha": DesignToken,
-          "beta": DesignToken
+      "dark": {
+        "background": {
+          "primary": DesignToken,
+          "secondary": DesignToken,
+          "tertiary": DesignToken
+        },
+        "color": {
+          "primary": DesignToken,
+          "secondary": DesignToken,
+          "tertiary": DesignToken
         }
       }
     },

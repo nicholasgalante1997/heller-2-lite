@@ -9,6 +9,8 @@
       "rad-500": { "value": "10px" },
       "rad-600": { "value": "20px" },
       "rad-700": { "value": "30px" },
+      "rad-800": { "value": "40px" },
+      "rad-900": { "value": "50px" },
       "max": { "value": "50%" }
     }
   }

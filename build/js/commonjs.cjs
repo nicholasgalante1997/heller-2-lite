@@ -1,11 +1,30 @@
 /**
  * Do not edit directly
- * Generated on Sun, 31 Dec 2023 16:53:06 GMT
+ * Generated on Mon, 01 Jan 2024 01:27:35 GMT
  */
 
 module.exports = {
   "border": {
     "outline": {
+      "none": {
+        "value": "none",
+        "filePath": "src/tokens/border/outline.json",
+        "isSource": true,
+        "original": {
+          "value": "none"
+        },
+        "name": "borderOutlineNone",
+        "attributes": {
+          "category": "border",
+          "type": "outline",
+          "item": "none"
+        },
+        "path": [
+          "border",
+          "outline",
+          "none"
+        ]
+      },
       "dark": {
         "thin": {
           "value": "1px solid #ffffff",
@@ -26,6 +45,27 @@ module.exports = {
             "outline",
             "dark",
             "thin"
+          ]
+        },
+        "medium": {
+          "value": "2px solid #ffffff",
+          "filePath": "src/tokens/border/outline.json",
+          "isSource": true,
+          "original": {
+            "value": "2px solid {color.base.white.alpha}"
+          },
+          "name": "borderOutlineDarkMedium",
+          "attributes": {
+            "category": "border",
+            "type": "outline",
+            "item": "dark",
+            "subitem": "medium"
+          },
+          "path": [
+            "border",
+            "outline",
+            "dark",
+            "medium"
           ]
         },
         "thick": {
@@ -70,6 +110,27 @@ module.exports = {
             "outline",
             "light",
             "thin"
+          ]
+        },
+        "medium": {
+          "value": "2px solid #0d1717",
+          "filePath": "src/tokens/border/outline.json",
+          "isSource": true,
+          "original": {
+            "value": "2px solid {color.base.black.gamma}"
+          },
+          "name": "borderOutlineLightMedium",
+          "attributes": {
+            "category": "border",
+            "type": "outline",
+            "item": "light",
+            "subitem": "medium"
+          },
+          "path": [
+            "border",
+            "outline",
+            "light",
+            "medium"
           ]
         },
         "thick": {
@@ -246,6 +307,44 @@ module.exports = {
           "border",
           "radius",
           "rad-700"
+        ]
+      },
+      "rad-800": {
+        "value": "40px",
+        "filePath": "src/tokens/border/radius.json",
+        "isSource": true,
+        "original": {
+          "value": "40px"
+        },
+        "name": "borderRadiusRad800",
+        "attributes": {
+          "category": "border",
+          "type": "radius",
+          "item": "rad-800"
+        },
+        "path": [
+          "border",
+          "radius",
+          "rad-800"
+        ]
+      },
+      "rad-900": {
+        "value": "50px",
+        "filePath": "src/tokens/border/radius.json",
+        "isSource": true,
+        "original": {
+          "value": "50px"
+        },
+        "name": "borderRadiusRad900",
+        "attributes": {
+          "category": "border",
+          "type": "radius",
+          "item": "rad-900"
+        },
+        "path": [
+          "border",
+          "radius",
+          "rad-900"
         ]
       },
       "max": {
@@ -525,204 +624,597 @@ module.exports = {
           ]
         }
       },
-      "purple": {
-        "dark": {
-          "alpha": {
-            "value": "#f189ff",
-            "filePath": "src/tokens/color/base.json",
-            "isSource": true,
-            "original": {
-              "value": "#f189ff"
-            },
-            "name": "colorBasePurpleDarkAlpha",
-            "attributes": {
-              "category": "color",
-              "type": "base",
-              "item": "purple",
-              "subitem": "dark",
-              "state": "alpha"
-            },
-            "path": [
-              "color",
-              "base",
-              "purple",
-              "dark",
-              "alpha"
-            ]
-          },
-          "beta": {
-            "value": "#ee6bff",
-            "filePath": "src/tokens/color/base.json",
-            "isSource": true,
-            "original": {
-              "value": "#ee6bff"
-            },
-            "name": "colorBasePurpleDarkBeta",
-            "attributes": {
-              "category": "color",
-              "type": "base",
-              "item": "purple",
-              "subitem": "dark",
-              "state": "beta"
-            },
-            "path": [
-              "color",
-              "base",
-              "purple",
-              "dark",
-              "beta"
-            ]
-          },
-          "gamma": {
-            "value": "#ea46ff",
-            "filePath": "src/tokens/color/base.json",
-            "isSource": true,
-            "original": {
-              "value": "#ea46ff"
-            },
-            "name": "colorBasePurpleDarkGamma",
-            "attributes": {
-              "category": "color",
-              "type": "base",
-              "item": "purple",
-              "subitem": "dark",
-              "state": "gamma"
-            },
-            "path": [
-              "color",
-              "base",
-              "purple",
-              "dark",
-              "gamma"
-            ]
-          }
-        }
-      },
       "green": {
-        "dark": {
-          "alpha": {
-            "value": "#69dc9e",
-            "filePath": "src/tokens/color/base.json",
-            "isSource": true,
-            "original": {
-              "value": "#69dc9e"
-            },
-            "name": "colorBaseGreenDarkAlpha",
-            "attributes": {
-              "category": "color",
-              "type": "base",
-              "item": "green",
-              "subitem": "dark",
-              "state": "alpha"
-            },
-            "path": [
-              "color",
-              "base",
-              "green",
-              "dark",
-              "alpha"
-            ]
-          }
+        "primary": {
+          "value": "#69dc9e",
+          "filePath": "src/tokens/color/base.json",
+          "isSource": true,
+          "original": {
+            "value": "#69dc9e"
+          },
+          "name": "colorBaseGreenPrimary",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "green",
+            "subitem": "primary"
+          },
+          "path": [
+            "color",
+            "base",
+            "green",
+            "primary"
+          ]
         }
       },
       "blue": {
-        "dark": {
-          "alpha": {
-            "value": "#9eb7e5",
+        "primary": {
+          "value": "#3f37c9",
+          "filePath": "src/tokens/color/base.json",
+          "isSource": true,
+          "original": {
+            "value": "#3f37c9"
+          },
+          "name": "colorBaseBluePrimary",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "blue",
+            "subitem": "primary"
+          },
+          "path": [
+            "color",
+            "base",
+            "blue",
+            "primary"
+          ]
+        },
+        "secondary": {
+          "value": "#4361ee",
+          "filePath": "src/tokens/color/base.json",
+          "isSource": true,
+          "original": {
+            "value": "#4361ee"
+          },
+          "name": "colorBaseBlueSecondary",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "blue",
+            "subitem": "secondary"
+          },
+          "path": [
+            "color",
+            "base",
+            "blue",
+            "secondary"
+          ]
+        }
+      },
+      "synthwave": {
+        "pink": {
+          "primary": {
+            "value": "#f72585",
             "filePath": "src/tokens/color/base.json",
             "isSource": true,
             "original": {
-              "value": "#9eb7e5"
+              "value": "#f72585"
             },
-            "name": "colorBaseBlueDarkAlpha",
+            "name": "colorBaseSynthwavePinkPrimary",
             "attributes": {
               "category": "color",
               "type": "base",
-              "item": "blue",
-              "subitem": "dark",
-              "state": "alpha"
+              "item": "synthwave",
+              "subitem": "pink",
+              "state": "primary"
             },
             "path": [
               "color",
               "base",
-              "blue",
-              "dark",
-              "alpha"
+              "synthwave",
+              "pink",
+              "primary"
+            ]
+          },
+          "secondary": {
+            "value": "#b5179e",
+            "filePath": "src/tokens/color/base.json",
+            "isSource": true,
+            "original": {
+              "value": "#b5179e"
+            },
+            "name": "colorBaseSynthwavePinkSecondary",
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "synthwave",
+              "subitem": "pink",
+              "state": "secondary"
+            },
+            "path": [
+              "color",
+              "base",
+              "synthwave",
+              "pink",
+              "secondary"
             ]
           }
         },
-        "light": {
-          "alpha": {
-            "value": "#c6e0ff",
+        "purple": {
+          "primary": {
+            "value": "#7209b7",
             "filePath": "src/tokens/color/base.json",
             "isSource": true,
             "original": {
-              "value": "#c6e0ff"
+              "value": "#7209b7"
             },
-            "name": "colorBaseBlueLightAlpha",
+            "name": "colorBaseSynthwavePurplePrimary",
             "attributes": {
               "category": "color",
               "type": "base",
-              "item": "blue",
-              "subitem": "light",
-              "state": "alpha"
+              "item": "synthwave",
+              "subitem": "purple",
+              "state": "primary"
             },
             "path": [
               "color",
               "base",
+              "synthwave",
+              "purple",
+              "primary"
+            ]
+          },
+          "secondary": {
+            "value": "#560bad",
+            "filePath": "src/tokens/color/base.json",
+            "isSource": true,
+            "original": {
+              "value": "#560bad"
+            },
+            "name": "colorBaseSynthwavePurpleSecondary",
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "synthwave",
+              "subitem": "purple",
+              "state": "secondary"
+            },
+            "path": [
+              "color",
+              "base",
+              "synthwave",
+              "purple",
+              "secondary"
+            ]
+          },
+          "tertiary": {
+            "value": "#480ca8",
+            "filePath": "src/tokens/color/base.json",
+            "isSource": true,
+            "original": {
+              "value": "#480ca8"
+            },
+            "name": "colorBaseSynthwavePurpleTertiary",
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "synthwave",
+              "subitem": "purple",
+              "state": "tertiary"
+            },
+            "path": [
+              "color",
+              "base",
+              "synthwave",
+              "purple",
+              "tertiary"
+            ]
+          },
+          "quadratic": {
+            "value": "#3a0ca3",
+            "filePath": "src/tokens/color/base.json",
+            "isSource": true,
+            "original": {
+              "value": "#3a0ca3"
+            },
+            "name": "colorBaseSynthwavePurpleQuadratic",
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "synthwave",
+              "subitem": "purple",
+              "state": "quadratic"
+            },
+            "path": [
+              "color",
+              "base",
+              "synthwave",
+              "purple",
+              "quadratic"
+            ]
+          }
+        },
+        "blue": {
+          "primary": {
+            "value": "#3f37c9",
+            "filePath": "src/tokens/color/base.json",
+            "isSource": true,
+            "original": {
+              "value": "#3f37c9"
+            },
+            "name": "colorBaseSynthwaveBluePrimary",
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "synthwave",
+              "subitem": "blue",
+              "state": "primary"
+            },
+            "path": [
+              "color",
+              "base",
+              "synthwave",
               "blue",
+              "primary"
+            ]
+          },
+          "secondary": {
+            "value": "#4361ee",
+            "filePath": "src/tokens/color/base.json",
+            "isSource": true,
+            "original": {
+              "value": "#4361ee"
+            },
+            "name": "colorBaseSynthwaveBlueSecondary",
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "synthwave",
+              "subitem": "blue",
+              "state": "secondary"
+            },
+            "path": [
+              "color",
+              "base",
+              "synthwave",
+              "blue",
+              "secondary"
+            ]
+          },
+          "tertiary": {
+            "value": "#4895ef",
+            "filePath": "src/tokens/color/base.json",
+            "isSource": true,
+            "original": {
+              "value": "#4895ef"
+            },
+            "name": "colorBaseSynthwaveBlueTertiary",
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "synthwave",
+              "subitem": "blue",
+              "state": "tertiary"
+            },
+            "path": [
+              "color",
+              "base",
+              "synthwave",
+              "blue",
+              "tertiary"
+            ]
+          },
+          "quadratic": {
+            "value": "#4cc9f0",
+            "filePath": "src/tokens/color/base.json",
+            "isSource": true,
+            "original": {
+              "value": "#4cc9f0"
+            },
+            "name": "colorBaseSynthwaveBlueQuadratic",
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "synthwave",
+              "subitem": "blue",
+              "state": "quadratic"
+            },
+            "path": [
+              "color",
+              "base",
+              "synthwave",
+              "blue",
+              "quadratic"
+            ]
+          }
+        }
+      }
+    },
+    "button": {
+      "light": {
+        "background": {
+          "primary": {
+            "value": "#3f37c9",
+            "filePath": "src/tokens/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.base.blue.primary}"
+            },
+            "name": "colorButtonLightBackgroundPrimary",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "light",
+              "subitem": "background",
+              "state": "primary"
+            },
+            "path": [
+              "color",
+              "button",
               "light",
-              "alpha"
+              "background",
+              "primary"
+            ]
+          },
+          "secondary": {
+            "value": "#4361ee",
+            "filePath": "src/tokens/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.base.blue.secondary}"
+            },
+            "name": "colorButtonLightBackgroundSecondary",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "light",
+              "subitem": "background",
+              "state": "secondary"
+            },
+            "path": [
+              "color",
+              "button",
+              "light",
+              "background",
+              "secondary"
+            ]
+          },
+          "tertiary": {
+            "value": "#000000",
+            "filePath": "src/tokens/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "transparent"
+            },
+            "name": "colorButtonLightBackgroundTertiary",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "light",
+              "subitem": "background",
+              "state": "tertiary"
+            },
+            "path": [
+              "color",
+              "button",
+              "light",
+              "background",
+              "tertiary"
+            ]
+          }
+        },
+        "color": {
+          "primary": {
+            "value": "#ffffff",
+            "filePath": "src/tokens/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.base.white.alpha}"
+            },
+            "name": "colorButtonLightColorPrimary",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "light",
+              "subitem": "color",
+              "state": "primary"
+            },
+            "path": [
+              "color",
+              "button",
+              "light",
+              "color",
+              "primary"
+            ]
+          },
+          "secondary": {
+            "value": "#ffffff",
+            "filePath": "src/tokens/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.base.white.alpha}"
+            },
+            "name": "colorButtonLightColorSecondary",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "light",
+              "subitem": "color",
+              "state": "secondary"
+            },
+            "path": [
+              "color",
+              "button",
+              "light",
+              "color",
+              "secondary"
+            ]
+          },
+          "tertiary": {
+            "value": "#3f37c9",
+            "filePath": "src/tokens/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.base.blue.primary}"
+            },
+            "name": "colorButtonLightColorTertiary",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "light",
+              "subitem": "color",
+              "state": "tertiary"
+            },
+            "path": [
+              "color",
+              "button",
+              "light",
+              "color",
+              "tertiary"
             ]
           }
         }
       },
-      "red": {
-        "light": {
-          "alpha": {
-            "value": "#e63946",
-            "filePath": "src/tokens/color/base.json",
+      "dark": {
+        "background": {
+          "primary": {
+            "value": "#3f37c9",
+            "filePath": "src/tokens/color/button.json",
             "isSource": true,
             "original": {
-              "value": "#e63946"
+              "value": "{color.base.blue.primary}"
             },
-            "name": "colorBaseRedLightAlpha",
+            "name": "colorButtonDarkBackgroundPrimary",
             "attributes": {
               "category": "color",
-              "type": "base",
-              "item": "red",
-              "subitem": "light",
-              "state": "alpha"
+              "type": "button",
+              "item": "dark",
+              "subitem": "background",
+              "state": "primary"
             },
             "path": [
               "color",
-              "base",
-              "red",
-              "light",
-              "alpha"
+              "button",
+              "dark",
+              "background",
+              "primary"
             ]
           },
-          "beta": {
-            "value": "#d62828",
-            "filePath": "src/tokens/color/base.json",
+          "secondary": {
+            "value": "#4361ee",
+            "filePath": "src/tokens/color/button.json",
             "isSource": true,
             "original": {
-              "value": "#d62828"
+              "value": "{color.base.blue.secondary}"
             },
-            "name": "colorBaseRedLightBeta",
+            "name": "colorButtonDarkBackgroundSecondary",
             "attributes": {
               "category": "color",
-              "type": "base",
-              "item": "red",
-              "subitem": "light",
-              "state": "beta"
+              "type": "button",
+              "item": "dark",
+              "subitem": "background",
+              "state": "secondary"
             },
             "path": [
               "color",
-              "base",
-              "red",
-              "light",
-              "beta"
+              "button",
+              "dark",
+              "background",
+              "secondary"
+            ]
+          },
+          "tertiary": {
+            "value": "#000000",
+            "filePath": "src/tokens/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "transparent"
+            },
+            "name": "colorButtonDarkBackgroundTertiary",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "dark",
+              "subitem": "background",
+              "state": "tertiary"
+            },
+            "path": [
+              "color",
+              "button",
+              "dark",
+              "background",
+              "tertiary"
+            ]
+          }
+        },
+        "color": {
+          "primary": {
+            "value": "#ffffff",
+            "filePath": "src/tokens/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.base.white.alpha}"
+            },
+            "name": "colorButtonDarkColorPrimary",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "dark",
+              "subitem": "color",
+              "state": "primary"
+            },
+            "path": [
+              "color",
+              "button",
+              "dark",
+              "color",
+              "primary"
+            ]
+          },
+          "secondary": {
+            "value": "#ffffff",
+            "filePath": "src/tokens/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.base.white.alpha}"
+            },
+            "name": "colorButtonDarkColorSecondary",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "dark",
+              "subitem": "color",
+              "state": "secondary"
+            },
+            "path": [
+              "color",
+              "button",
+              "dark",
+              "color",
+              "secondary"
+            ]
+          },
+          "tertiary": {
+            "value": "#3f37c9",
+            "filePath": "src/tokens/color/button.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.base.blue.primary}"
+            },
+            "name": "colorButtonDarkColorTertiary",
+            "attributes": {
+              "category": "color",
+              "type": "button",
+              "item": "dark",
+              "subitem": "color",
+              "state": "tertiary"
+            },
+            "path": [
+              "color",
+              "button",
+              "dark",
+              "color",
+              "tertiary"
             ]
           }
         }

@@ -1,11 +1,14 @@
 /**
  * Do not edit directly
- * Generated on Sun, 31 Dec 2023 16:53:06 GMT
+ * Generated on Mon, 01 Jan 2024 01:27:35 GMT
  */
 
+export const borderOutlineNone = "none";
 export const borderOutlineDarkThin = "1px solid #ffffff";
+export const borderOutlineDarkMedium = "2px solid #ffffff";
 export const borderOutlineDarkThick = "3px solid #ffffff";
 export const borderOutlineLightThin = "1px solid #0d1717";
+export const borderOutlineLightMedium = "2px solid #0d1717";
 export const borderOutlineLightThick = "3px solid #0d1717";
 export const borderRadiusNone = "0px";
 export const borderRadiusRad100 = "2px";
@@ -15,6 +18,8 @@ export const borderRadiusRad400 = "8px";
 export const borderRadiusRad500 = "10px";
 export const borderRadiusRad600 = "20px";
 export const borderRadiusRad700 = "30px";
+export const borderRadiusRad800 = "40px";
+export const borderRadiusRad900 = "50px";
 export const borderRadiusMax = "50%";
 export const boxShadowLightElevation100 = "0px 2px 6px #0c0c0c";
 export const boxShadowLightElevation200 = "0px 4px 8px #0c0c0c";
@@ -28,14 +33,31 @@ export const colorBaseBlackTheta = "#171717";
 export const colorBaseBlackEta = "#011222";
 export const colorBaseBlackIota = "#020d19";
 export const colorBaseWhiteAlpha = "#ffffff";
-export const colorBasePurpleDarkAlpha = "#f189ff";
-export const colorBasePurpleDarkBeta = "#ee6bff";
-export const colorBasePurpleDarkGamma = "#ea46ff";
-export const colorBaseGreenDarkAlpha = "#69dc9e";
-export const colorBaseBlueDarkAlpha = "#9eb7e5";
-export const colorBaseBlueLightAlpha = "#c6e0ff";
-export const colorBaseRedLightAlpha = "#e63946";
-export const colorBaseRedLightBeta = "#d62828";
+export const colorBaseGreenPrimary = "#69dc9e";
+export const colorBaseBluePrimary = "#3f37c9";
+export const colorBaseBlueSecondary = "#4361ee";
+export const colorBaseSynthwavePinkPrimary = "#f72585";
+export const colorBaseSynthwavePinkSecondary = "#b5179e";
+export const colorBaseSynthwavePurplePrimary = "#7209b7";
+export const colorBaseSynthwavePurpleSecondary = "#560bad";
+export const colorBaseSynthwavePurpleTertiary = "#480ca8";
+export const colorBaseSynthwavePurpleQuadratic = "#3a0ca3";
+export const colorBaseSynthwaveBluePrimary = "#3f37c9";
+export const colorBaseSynthwaveBlueSecondary = "#4361ee";
+export const colorBaseSynthwaveBlueTertiary = "#4895ef";
+export const colorBaseSynthwaveBlueQuadratic = "#4cc9f0";
+export const colorButtonLightBackgroundPrimary = "#3f37c9";
+export const colorButtonLightBackgroundSecondary = "#4361ee";
+export const colorButtonLightBackgroundTertiary = "#000000";
+export const colorButtonLightColorPrimary = "#ffffff";
+export const colorButtonLightColorSecondary = "#ffffff";
+export const colorButtonLightColorTertiary = "#3f37c9";
+export const colorButtonDarkBackgroundPrimary = "#3f37c9";
+export const colorButtonDarkBackgroundSecondary = "#4361ee";
+export const colorButtonDarkBackgroundTertiary = "#000000";
+export const colorButtonDarkColorPrimary = "#ffffff";
+export const colorButtonDarkColorSecondary = "#ffffff";
+export const colorButtonDarkColorTertiary = "#3f37c9";
 export const colorFontDarkContrastHigh = "#ffffff";
 export const colorFontDarkContrastMedium = "#ffffff";
 export const colorFontDarkContrastLow = "#ffffff";

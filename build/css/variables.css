@@ -1,12 +1,15 @@
 /**
  * Do not edit directly
- * Generated on Sun, 31 Dec 2023 16:53:06 GMT
+ * Generated on Mon, 01 Jan 2024 01:27:35 GMT
  */
 
 :root {
+  --border-outline-none: none;
   --border-outline-dark-thin: 1px solid #ffffff;
+  --border-outline-dark-medium: 2px solid #ffffff;
   --border-outline-dark-thick: 3px solid #ffffff;
   --border-outline-light-thin: 1px solid #0d1717;
+  --border-outline-light-medium: 2px solid #0d1717;
   --border-outline-light-thick: 3px solid #0d1717;
   --border-radius-none: 0px;
   --border-radius-rad-100: 2px;
@@ -16,6 +19,8 @@
   --border-radius-rad-500: 10px;
   --border-radius-rad-600: 20px;
   --border-radius-rad-700: 30px;
+  --border-radius-rad-800: 40px;
+  --border-radius-rad-900: 50px;
   --border-radius-max: 50%;
   --box-shadow-light-elevation-100: 0px 2px 6px #0c0c0c;
   --box-shadow-light-elevation-200: 0px 4px 8px #0c0c0c;
@@ -29,14 +34,31 @@
   --color-base-black-eta: #011222;
   --color-base-black-iota: #020d19;
   --color-base-white-alpha: #ffffff;
-  --color-base-purple-dark-alpha: #f189ff;
-  --color-base-purple-dark-beta: #ee6bff;
-  --color-base-purple-dark-gamma: #ea46ff;
-  --color-base-green-dark-alpha: #69dc9e;
-  --color-base-blue-dark-alpha: #9eb7e5;
-  --color-base-blue-light-alpha: #c6e0ff;
-  --color-base-red-light-alpha: #e63946;
-  --color-base-red-light-beta: #d62828;
+  --color-base-green-primary: #69dc9e;
+  --color-base-blue-primary: #3f37c9;
+  --color-base-blue-secondary: #4361ee;
+  --color-base-synthwave-pink-primary: #f72585;
+  --color-base-synthwave-pink-secondary: #b5179e;
+  --color-base-synthwave-purple-primary: #7209b7;
+  --color-base-synthwave-purple-secondary: #560bad;
+  --color-base-synthwave-purple-tertiary: #480ca8;
+  --color-base-synthwave-purple-quadratic: #3a0ca3;
+  --color-base-synthwave-blue-primary: #3f37c9;
+  --color-base-synthwave-blue-secondary: #4361ee;
+  --color-base-synthwave-blue-tertiary: #4895ef;
+  --color-base-synthwave-blue-quadratic: #4cc9f0;
+  --color-button-light-background-primary: #3f37c9;
+  --color-button-light-background-secondary: #4361ee;
+  --color-button-light-background-tertiary: rgba(0, 0, 0, 0);
+  --color-button-light-color-primary: #ffffff;
+  --color-button-light-color-secondary: #ffffff;
+  --color-button-light-color-tertiary: #3f37c9;
+  --color-button-dark-background-primary: #3f37c9;
+  --color-button-dark-background-secondary: #4361ee;
+  --color-button-dark-background-tertiary: rgba(0, 0, 0, 0);
+  --color-button-dark-color-primary: #ffffff;
+  --color-button-dark-color-secondary: #ffffff;
+  --color-button-dark-color-tertiary: #3f37c9;
   --color-font-dark-contrast-high: rgba(255, 255, 255, 0.87);
   --color-font-dark-contrast-medium: rgba(255, 255, 255, 0.6);
   --color-font-dark-contrast-low: rgba(255, 255, 255, 0.38);
