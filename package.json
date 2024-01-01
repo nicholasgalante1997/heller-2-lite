@@ -9,6 +9,7 @@
   ],
   "exports": {
     ".": "./build/js/esm.mjs",
+    "./build/js/esm.d.ts": "./build/js/esm.d.ts",
     "./styles.cjs": "./build/js/commonjs.cjs",
     "./styles.mjs": "./build/js/esm.mjs",
     "./css/variables.css": "./build/css/variables.css",
