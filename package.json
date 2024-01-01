@@ -1,6 +1,6 @@
 {
   "name": "heller-2-lite",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "A minimal css token library.",
   "type": "module",
   "main": "build/js/esm.mjs",
@@ -16,14 +16,11 @@
       "require": "./build/js/commonjs.cjs",
       "default": "./build/js/commonjs.cjs"
     },
-
     "./build/js/esm.d.ts": "./build/js/esm.d.ts",
-    
     "./css/variables.css": "./build/css/variables.css",
     "./css/base.min.css": "./build/css/base.min.css",
     "./css/button.min.css": "./build/css/button.min.css",
     "./scss/_variables.scss": "./build/scss/_variables.scss",
-    
     "./package.json": "./package.json"
   },
   "scripts": {
