@@ -5,7 +5,6 @@
   --button-small-min-width: 140px;
   --button-medium-min-width: 170px;
   --button-large-min-width: 184px;
-
   --button-small-height: 40px;
   --button-medium-height: 48px;
   --button-large-height: 52px;
@@ -14,7 +13,7 @@
 /** 
 * Base button styles, inherited by all sizes, themes of 'button'
 */
-.heller2-button {
+.h-button {
   /* 
   * Internal layout (flex positioning)
   */
@@ -61,30 +60,39 @@
 /** 
 * Border button styles, optional 
 */
-.heller2-button.rounded {
+.h-button.rounded {
   border-radius: var(--border-radius-rad-700);
+}
+
+/** 
+* Button width full, optional 
+*/
+.h-button.h-button-max-width {
+  width: 100%;
+  min-width: 100%;
 }
 
 /*
 * Size button styles
 * default - medium
 */
-.heller2-button,
-.heller2-button[data-hsize="medium"] {
+.h-button,
+.h-button.h-button-size-medium,
+.h-button.h-button-size-default {
   min-width: var(--button-medium-min-width);
   height: var(--button-medium-height);
   font-size: var(--font-size-body-normal);
   font-weight: var(--font-weight-heavy);
 }
 
-.heller2-button[data-hsize="small"] {
+.h-button.h-button-size-small {
   min-width: var(--button-small-min-width);
   height: var(--button-small-height);
   font-size: var(--font-size-body-normal);
   font-weight: var(--font-weight-heavy);
 }
 
-.heller2-button[data-hsize="large"] {
+.h-button.h-button-size-large {
   min-width: var(--button-large-min-width);
   height: var(--button-large-height);
   font-size: var(--font-size-body-normal);
@@ -95,49 +103,67 @@
 * Color button properties
 * Theme related
 */
-.heller2-button,
-.heller2-theme[data-theme-mode="light"] .heller2-button,
+.h-button,
+.heller2-theme[data-theme-mode="light"] .h-button,
 .heller2-theme[data-theme-mode="light"]
-  .heller2-button[data-hvariant="primary"] {
+  .h-button.h-button-primary {
   background-color: var(--color-button-light-background-primary);
   color: var(--color-button-light-color-primary);
   fill: var(--color-button-light-color-primary);
 }
 
 .heller2-theme[data-theme-mode="light"]
-  .heller2-button[data-hvariant="secondary"] {
+  .h-button.h-button-secondary {
   background-color: var(--color-button-light-background-secondary);
   color: var(--color-button-light-color-secondary);
   fill: var(--color-button-light-color-secondary);
 }
 
 .heller2-theme[data-theme-mode="light"]
-  .heller2-button[data-hvariant="tertiary"] {
+  .h-button.h-button-tertiary {
   background-color: var(--color-button-light-background-tertiary);
   border: 2px solid var(--color-button-light-color-tertiary);
   color: var(--color-button-light-color-tertiary);
   fill: var(--color-button-light-color-tertiary);
 }
 
-.heller2-theme[data-theme-mode="dark"] .heller2-button,
+.heller2-theme[data-theme-mode="light"]
+  .h-button.h-button-noir {
+  background-color: var(--color-button-light-background-tertiary);
+  border: 2px solid var(--color-base-black-alpha);
+  border-radius: 0;
+  color: var(--color-base-black-alpha);
+  fill: var(--color-base-black-alpha);
+}
+
+.heller2-theme[data-theme-mode="dark"] .h-button,
 .heller2-theme[data-theme-mode="dark"]
-  .heller2-button[data-hvariant="primary"] {
+  .h-button.h-button-primary {
   background-color: var(--color-button-dark-background-primary);
   color: var(--color-button-dark-color-primary);
   fill: var(--color-button-dark-color-primary);
 }
 
 .heller2-theme[data-theme-mode="dark"]
-  .heller2-button[data-hvariant="secondary"] {
+  .h-button.h-button-secondary {
   background-color: var(--color-button-dark-background-secondary);
   color: var(--color-button-dark-color-secondary);
   fill: var(--color-button-dark-color-secondary);
 }
 
 .heller2-theme[data-theme-mode="dark"]
-  .heller2-button[data-hvariant="tertiary"] {
+  .h-button.h-button-tertiary {
   background-color: var(--color-button-dark-background-tertiary);
   border: 2px solid var(--color-button-dark-color-tertiary);
   color: var(--color-button-dark-color-tertiary);
   fill: var(--color-button-dark-color-tertiary);
+}
+
+.heller2-theme[data-theme-mode="dark"]
+  .h-button.h-button-noir {
+  background-color: var(--color-base-white-alpha);
+  border: 2px solid var(--color-font-dark-contrast-low);
+  border-radius: 0;
+  color: var(--color-base-black-alpha);
+  fill: var(--color-base-black-alpha);
 }
