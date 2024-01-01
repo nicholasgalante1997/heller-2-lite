@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 01 Jan 2024 15:53:09 GMT
+ * Generated on Mon, 01 Jan 2024 16:32:52 GMT
  */
 
 export const borderOutlineNone = "none";
