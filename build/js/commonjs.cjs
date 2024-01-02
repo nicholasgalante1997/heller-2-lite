@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 02 Jan 2024 04:05:46 GMT
+ * Generated on Tue, 02 Jan 2024 06:47:37 GMT
  */
 
 module.exports = {
@@ -1592,46 +1592,130 @@ module.exports = {
         }
       },
       "heading": {
-        "title": {
+        "h1": {
+          "value": "40px",
+          "filePath": "src/tokens/font/base.json",
+          "isSource": true,
+          "original": {
+            "value": "40px"
+          },
+          "name": "fontSizeHeadingH1",
+          "attributes": {
+            "category": "font",
+            "type": "size",
+            "item": "heading",
+            "subitem": "h1"
+          },
+          "path": [
+            "font",
+            "size",
+            "heading",
+            "h1"
+          ]
+        },
+        "h2": {
+          "value": "32px",
+          "filePath": "src/tokens/font/base.json",
+          "isSource": true,
+          "original": {
+            "value": "32px"
+          },
+          "name": "fontSizeHeadingH2",
+          "attributes": {
+            "category": "font",
+            "type": "size",
+            "item": "heading",
+            "subitem": "h2"
+          },
+          "path": [
+            "font",
+            "size",
+            "heading",
+            "h2"
+          ]
+        },
+        "h3": {
           "value": "28px",
           "filePath": "src/tokens/font/base.json",
           "isSource": true,
           "original": {
-            "value": "{font.size.xlarge}"
+            "value": "28px"
           },
-          "name": "fontSizeHeadingTitle",
+          "name": "fontSizeHeadingH3",
           "attributes": {
             "category": "font",
             "type": "size",
             "item": "heading",
-            "subitem": "title"
+            "subitem": "h3"
           },
           "path": [
             "font",
             "size",
             "heading",
-            "title"
+            "h3"
           ]
         },
-        "subtitle": {
+        "h4": {
+          "value": "24px",
+          "filePath": "src/tokens/font/base.json",
+          "isSource": true,
+          "original": {
+            "value": "24px"
+          },
+          "name": "fontSizeHeadingH4",
+          "attributes": {
+            "category": "font",
+            "type": "size",
+            "item": "heading",
+            "subitem": "h4"
+          },
+          "path": [
+            "font",
+            "size",
+            "heading",
+            "h4"
+          ]
+        },
+        "h5": {
           "value": "20px",
           "filePath": "src/tokens/font/base.json",
           "isSource": true,
           "original": {
-            "value": "{font.size.large}"
+            "value": "20px"
           },
-          "name": "fontSizeHeadingSubtitle",
+          "name": "fontSizeHeadingH5",
           "attributes": {
             "category": "font",
             "type": "size",
             "item": "heading",
-            "subitem": "subtitle"
+            "subitem": "h5"
           },
           "path": [
             "font",
             "size",
             "heading",
-            "subtitle"
+            "h5"
+          ]
+        },
+        "h6": {
+          "value": "16px",
+          "filePath": "src/tokens/font/base.json",
+          "isSource": true,
+          "original": {
+            "value": "16px"
+          },
+          "name": "fontSizeHeadingH6",
+          "attributes": {
+            "category": "font",
+            "type": "size",
+            "item": "heading",
+            "subitem": "h6"
+          },
+          "path": [
+            "font",
+            "size",
+            "heading",
+            "h6"
           ]
         }
       }
@@ -1820,6 +1904,30 @@ module.exports = {
           ]
         }
       }
+    },
+    "lineHeight": {
+      "base": {
+        "value": "1.15",
+        "filePath": "src/tokens/font/base.json",
+        "isSource": true,
+        "original": {
+          "value": "1.15"
+        },
+        "name": "fontLineHeightBase",
+        "attributes": {
+          "category": "font",
+          "type": "lineHeight",
+          "item": "base"
+        },
+        "path": [
+          "font",
+          "lineHeight",
+          "base"
+        ]
+      }
+    },
+    "letterSpacing": {
+      "base": "-0.8px"
     }
   },
   "size": {

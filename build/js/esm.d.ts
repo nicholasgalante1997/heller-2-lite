@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 02 Jan 2024 04:05:46 GMT
+ * Generated on Tue, 02 Jan 2024 06:47:37 GMT
  */
 
 export const borderOutlineNone : string;
@@ -74,8 +74,12 @@ export const fontSizeLarge : string;
 export const fontSizeXlarge : string;
 export const fontSizeBodyAccent : string;
 export const fontSizeBodyNormal : string;
-export const fontSizeHeadingTitle : string;
-export const fontSizeHeadingSubtitle : string;
+export const fontSizeHeadingH1 : string;
+export const fontSizeHeadingH2 : string;
+export const fontSizeHeadingH3 : string;
+export const fontSizeHeadingH4 : string;
+export const fontSizeHeadingH5 : string;
+export const fontSizeHeadingH6 : string;
 export const fontWeightThin : number;
 export const fontWeightLight : number;
 export const fontWeightMedium : number;
@@ -85,6 +89,7 @@ export const fontWeightBodyNormal : number;
 export const fontWeightBodyBold : number;
 export const fontWeightHeadingNormal : number;
 export const fontWeightHeadingBold : number;
+export const fontLineHeightBase : string;
 /** Values are in 'px' unit. */
 export const sizeSpacingNone : string;
 export const sizeSpacingSmall100 : string;

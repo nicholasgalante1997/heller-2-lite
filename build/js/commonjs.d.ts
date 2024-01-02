@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 02 Jan 2024 04:05:46 GMT
+ * Generated on Tue, 02 Jan 2024 06:47:37 GMT
  */
 
 export default tokens;
@@ -162,8 +162,12 @@ declare const tokens: {
         "normal": DesignToken
       },
       "heading": {
-        "title": DesignToken,
-        "subtitle": DesignToken
+        "h1": DesignToken,
+        "h2": DesignToken,
+        "h3": DesignToken,
+        "h4": DesignToken,
+        "h5": DesignToken,
+        "h6": DesignToken
       }
     },
     "weight": {
@@ -180,7 +184,11 @@ declare const tokens: {
         "normal": DesignToken,
         "bold": DesignToken
       }
-    }
+    },
+    "lineHeight": {
+      "base": DesignToken
+    },
+    "letterSpacing": {}
   },
   "size": {
     "spacing": {

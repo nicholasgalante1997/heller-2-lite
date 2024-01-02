@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 02 Jan 2024 04:05:46 GMT
+ * Generated on Tue, 02 Jan 2024 06:47:37 GMT
  */
 
 :root {
@@ -75,8 +75,12 @@
   --font-size-xlarge: 28px;
   --font-size-body-accent: 14px;
   --font-size-body-normal: 16px;
-  --font-size-heading-title: 28px;
-  --font-size-heading-subtitle: 20px;
+  --font-size-heading-h1: 40px;
+  --font-size-heading-h2: 32px;
+  --font-size-heading-h3: 28px;
+  --font-size-heading-h4: 24px;
+  --font-size-heading-h5: 20px;
+  --font-size-heading-h6: 16px;
   --font-weight-thin: 300;
   --font-weight-light: 400;
   --font-weight-medium: 500;
@@ -86,6 +90,7 @@
   --font-weight-body-bold: 600;
   --font-weight-heading-normal: 600;
   --font-weight-heading-bold: 700;
+  --font-line-height-base: 1.15;
   --size-spacing-none: 0px; /* Values are in 'px' unit. */
   --size-spacing-small-100: 2px;
   --size-spacing-small-200: 4px;

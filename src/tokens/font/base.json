@@ -10,9 +10,14 @@
         "accent": { "value": "{font.size.small}" },
         "normal": { "value": "{font.size.medium}" }
       },
+
       "heading": {
-        "title": { "value": "{font.size.xlarge}" },
-        "subtitle": { "value": "{font.size.large}" }
+        "h1": { "value": "40px" },
+        "h2": { "value": "32px" },
+        "h3": { "value": "28px" },
+        "h4": { "value": "24px" },
+        "h5": { "value": "20px" },
+        "h6": { "value": "16px" }
       }
     },
     "weight": {
@@ -38,6 +43,12 @@
           "value": "{font.weight.thick}"
         }
       }
+    },
+    "lineHeight": {
+      "base": { "value": "1.15" }
+    },
+    "letterSpacing": {
+      "base": "-0.8px"
     }
   }
 }

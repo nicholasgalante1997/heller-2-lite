@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Tue, 02 Jan 2024 04:05:46 GMT
+ * Generated on Tue, 02 Jan 2024 06:47:37 GMT
  */
 
 export const borderOutlineNone = "none";
@@ -74,8 +74,12 @@ export const fontSizeLarge = "20px";
 export const fontSizeXlarge = "28px";
 export const fontSizeBodyAccent = "14px";
 export const fontSizeBodyNormal = "16px";
-export const fontSizeHeadingTitle = "28px";
-export const fontSizeHeadingSubtitle = "20px";
+export const fontSizeHeadingH1 = "40px";
+export const fontSizeHeadingH2 = "32px";
+export const fontSizeHeadingH3 = "28px";
+export const fontSizeHeadingH4 = "24px";
+export const fontSizeHeadingH5 = "20px";
+export const fontSizeHeadingH6 = "16px";
 export const fontWeightThin = 300;
 export const fontWeightLight = 400;
 export const fontWeightMedium = 500;
@@ -85,6 +89,7 @@ export const fontWeightBodyNormal = 500;
 export const fontWeightBodyBold = 600;
 export const fontWeightHeadingNormal = 600;
 export const fontWeightHeadingBold = 700;
+export const fontLineHeightBase = "1.15";
 export const sizeSpacingNone = "0px"; // Values are in 'px' unit.
 export const sizeSpacingSmall100 = "2px";
 export const sizeSpacingSmall200 = "4px";
