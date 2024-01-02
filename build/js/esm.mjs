@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 01 Jan 2024 16:32:52 GMT
+ * Generated on Tue, 02 Jan 2024 04:05:46 GMT
  */
 
 export const borderOutlineNone = "none";
@@ -49,12 +49,16 @@ export const colorBaseSynthwaveBlueQuadratic = "#4cc9f0";
 export const colorButtonLightBackgroundPrimary = "#3f37c9";
 export const colorButtonLightBackgroundSecondary = "#4361ee";
 export const colorButtonLightBackgroundTertiary = "#000000";
+export const colorButtonLightBackgroundStatesActive = "#4361ee";
+export const colorButtonLightBackgroundStatesHover = "#3a0ca3";
 export const colorButtonLightColorPrimary = "#ffffff";
 export const colorButtonLightColorSecondary = "#ffffff";
 export const colorButtonLightColorTertiary = "#3f37c9";
 export const colorButtonDarkBackgroundPrimary = "#3f37c9";
 export const colorButtonDarkBackgroundSecondary = "#4361ee";
 export const colorButtonDarkBackgroundTertiary = "#000000";
+export const colorButtonDarkBackgroundStatesActive = "#3a0ca3";
+export const colorButtonDarkBackgroundStatesHover = "#4361ee";
 export const colorButtonDarkColorPrimary = "#ffffff";
 export const colorButtonDarkColorSecondary = "#ffffff";
 export const colorButtonDarkColorTertiary = "#3f37c9";

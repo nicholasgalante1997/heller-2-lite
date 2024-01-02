@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 01 Jan 2024 16:32:52 GMT
+ * Generated on Tue, 02 Jan 2024 04:05:46 GMT
  */
 
 module.exports = {
@@ -1001,6 +1001,56 @@ module.exports = {
               "background",
               "tertiary"
             ]
+          },
+          "states": {
+            "active": {
+              "value": "#4361ee",
+              "filePath": "src/tokens/color/button.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.base.blue.secondary}"
+              },
+              "name": "colorButtonLightBackgroundStatesActive",
+              "attributes": {
+                "category": "color",
+                "type": "button",
+                "item": "light",
+                "subitem": "background",
+                "state": "states"
+              },
+              "path": [
+                "color",
+                "button",
+                "light",
+                "background",
+                "states",
+                "active"
+              ]
+            },
+            "hover": {
+              "value": "#3a0ca3",
+              "filePath": "src/tokens/color/button.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.base.synthwave.purple.quadratic}"
+              },
+              "name": "colorButtonLightBackgroundStatesHover",
+              "attributes": {
+                "category": "color",
+                "type": "button",
+                "item": "light",
+                "subitem": "background",
+                "state": "states"
+              },
+              "path": [
+                "color",
+                "button",
+                "light",
+                "background",
+                "states",
+                "hover"
+              ]
+            }
           }
         },
         "color": {
@@ -1145,6 +1195,56 @@ module.exports = {
               "background",
               "tertiary"
             ]
+          },
+          "states": {
+            "active": {
+              "value": "#3a0ca3",
+              "filePath": "src/tokens/color/button.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.base.synthwave.purple.quadratic}"
+              },
+              "name": "colorButtonDarkBackgroundStatesActive",
+              "attributes": {
+                "category": "color",
+                "type": "button",
+                "item": "dark",
+                "subitem": "background",
+                "state": "states"
+              },
+              "path": [
+                "color",
+                "button",
+                "dark",
+                "background",
+                "states",
+                "active"
+              ]
+            },
+            "hover": {
+              "value": "#4361ee",
+              "filePath": "src/tokens/color/button.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.base.blue.secondary}"
+              },
+              "name": "colorButtonDarkBackgroundStatesHover",
+              "attributes": {
+                "category": "color",
+                "type": "button",
+                "item": "dark",
+                "subitem": "background",
+                "state": "states"
+              },
+              "path": [
+                "color",
+                "button",
+                "dark",
+                "background",
+                "states",
+                "hover"
+              ]
+            }
           }
         },
         "color": {

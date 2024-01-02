@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 01 Jan 2024 16:32:52 GMT
+ * Generated on Tue, 02 Jan 2024 04:05:46 GMT
  */
 
 export default tokens;
@@ -105,7 +105,11 @@ declare const tokens: {
         "background": {
           "primary": DesignToken,
           "secondary": DesignToken,
-          "tertiary": DesignToken
+          "tertiary": DesignToken,
+          "states": {
+            "active": DesignToken,
+            "hover": DesignToken
+          }
         },
         "color": {
           "primary": DesignToken,
@@ -117,7 +121,11 @@ declare const tokens: {
         "background": {
           "primary": DesignToken,
           "secondary": DesignToken,
-          "tertiary": DesignToken
+          "tertiary": DesignToken,
+          "states": {
+            "active": DesignToken,
+            "hover": DesignToken
+          }
         },
         "color": {
           "primary": DesignToken,

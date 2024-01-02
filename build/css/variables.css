@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 01 Jan 2024 16:32:52 GMT
+ * Generated on Tue, 02 Jan 2024 04:05:46 GMT
  */
 
 :root {
@@ -50,12 +50,16 @@
   --color-button-light-background-primary: #3f37c9;
   --color-button-light-background-secondary: #4361ee;
   --color-button-light-background-tertiary: rgba(0, 0, 0, 0);
+  --color-button-light-background-states-active: #4361ee;
+  --color-button-light-background-states-hover: #3a0ca3;
   --color-button-light-color-primary: #ffffff;
   --color-button-light-color-secondary: #ffffff;
   --color-button-light-color-tertiary: #3f37c9;
   --color-button-dark-background-primary: #3f37c9;
   --color-button-dark-background-secondary: #4361ee;
   --color-button-dark-background-tertiary: rgba(0, 0, 0, 0);
+  --color-button-dark-background-states-active: #3a0ca3;
+  --color-button-dark-background-states-hover: #4361ee;
   --color-button-dark-color-primary: #ffffff;
   --color-button-dark-color-secondary: #ffffff;
   --color-button-dark-color-tertiary: #3f37c9;

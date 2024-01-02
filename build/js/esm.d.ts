@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Mon, 01 Jan 2024 16:32:52 GMT
+ * Generated on Tue, 02 Jan 2024 04:05:46 GMT
  */
 
 export const borderOutlineNone : string;
@@ -49,12 +49,16 @@ export const colorBaseSynthwaveBlueQuadratic : string;
 export const colorButtonLightBackgroundPrimary : string;
 export const colorButtonLightBackgroundSecondary : string;
 export const colorButtonLightBackgroundTertiary : string;
+export const colorButtonLightBackgroundStatesActive : string;
+export const colorButtonLightBackgroundStatesHover : string;
 export const colorButtonLightColorPrimary : string;
 export const colorButtonLightColorSecondary : string;
 export const colorButtonLightColorTertiary : string;
 export const colorButtonDarkBackgroundPrimary : string;
 export const colorButtonDarkBackgroundSecondary : string;
 export const colorButtonDarkBackgroundTertiary : string;
+export const colorButtonDarkBackgroundStatesActive : string;
+export const colorButtonDarkBackgroundStatesHover : string;
 export const colorButtonDarkColorPrimary : string;
 export const colorButtonDarkColorSecondary : string;
 export const colorButtonDarkColorTertiary : string;
