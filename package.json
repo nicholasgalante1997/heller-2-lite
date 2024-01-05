@@ -26,6 +26,7 @@
     "./css/variables.css": "./build/css/variables.css",
     "./css/base.min.css": "./build/css/base.min.css",
     "./css/button.min.css": "./build/css/button.min.css",
+    "./css/typography.min.css": "./build/css/typography.min.css",
     "./scss/_variables.scss": "./build/scss/_variables.scss",
     "./package.json": "./package.json"
   },
