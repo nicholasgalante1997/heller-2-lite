@@ -16,7 +16,13 @@
       "require": "./build/js/commonjs.cjs",
       "default": "./build/js/commonjs.cjs"
     },
+    "./js/commonjs/tokens.js": {
+      "types": "./build/js/commonjs.d.ts",
+      "require": "./build/js/commonjs.cjs",
+      "default": "./build/js/commonjs.cjs"
+    },
     "./build/js/esm.d.ts": "./build/js/esm.d.ts",
+    "./build/js/commonjs.d.ts": "./build/js/commonjs.d.ts",
     "./css/variables.css": "./build/css/variables.css",
     "./css/base.min.css": "./build/css/base.min.css",
     "./css/button.min.css": "./build/css/button.min.css",
