@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 05 Jan 2024 03:12:23 GMT
+ * Generated on Fri, 12 Jan 2024 16:25:34 GMT
  */
 
 export const borderOutlineNone : string;
@@ -46,6 +46,14 @@ export const colorBaseSynthwaveBluePrimary : string;
 export const colorBaseSynthwaveBlueSecondary : string;
 export const colorBaseSynthwaveBlueTertiary : string;
 export const colorBaseSynthwaveBlueQuadratic : string;
+export const colorBaseSystemInfoLight : string;
+export const colorBaseSystemInfoDark : string;
+export const colorBaseSystemWarningLight : string;
+export const colorBaseSystemWarningDark : string;
+export const colorBaseSystemSuccessLight : string;
+export const colorBaseSystemSuccessDark : string;
+export const colorBaseSystemErrorLight : string;
+export const colorBaseSystemErrorDark : string;
 export const colorButtonLightBackgroundPrimary : string;
 export const colorButtonLightBackgroundSecondary : string;
 export const colorButtonLightBackgroundTertiary : string;

@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 05 Jan 2024 03:12:23 GMT
+ * Generated on Fri, 12 Jan 2024 16:25:34 GMT
  */
 
 export default tokens;
@@ -97,6 +97,24 @@ declare const tokens: {
           "secondary": DesignToken,
           "tertiary": DesignToken,
           "quadratic": DesignToken
+        }
+      },
+      "system": {
+        "info": {
+          "light": DesignToken,
+          "dark": DesignToken
+        },
+        "warning": {
+          "light": DesignToken,
+          "dark": DesignToken
+        },
+        "success": {
+          "light": DesignToken,
+          "dark": DesignToken
+        },
+        "error": {
+          "light": DesignToken,
+          "dark": DesignToken
         }
       }
     },

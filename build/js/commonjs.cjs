@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 05 Jan 2024 03:12:23 GMT
+ * Generated on Fri, 12 Jan 2024 16:25:34 GMT
  */
 
 module.exports = {
@@ -925,6 +925,200 @@ module.exports = {
               "synthwave",
               "blue",
               "quadratic"
+            ]
+          }
+        }
+      },
+      "system": {
+        "info": {
+          "light": {
+            "value": "#00b4f5",
+            "filePath": "src/tokens/color/system.json",
+            "isSource": true,
+            "original": {
+              "value": "#00b4f5"
+            },
+            "name": "colorBaseSystemInfoLight",
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "system",
+              "subitem": "info",
+              "state": "light"
+            },
+            "path": [
+              "color",
+              "base",
+              "system",
+              "info",
+              "light"
+            ]
+          },
+          "dark": {
+            "value": "#00b4f5",
+            "filePath": "src/tokens/color/system.json",
+            "isSource": true,
+            "original": {
+              "value": "#00b4f5"
+            },
+            "name": "colorBaseSystemInfoDark",
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "system",
+              "subitem": "info",
+              "state": "dark"
+            },
+            "path": [
+              "color",
+              "base",
+              "system",
+              "info",
+              "dark"
+            ]
+          }
+        },
+        "warning": {
+          "light": {
+            "value": "#f9cb40",
+            "filePath": "src/tokens/color/system.json",
+            "isSource": true,
+            "original": {
+              "value": "#f9cb40"
+            },
+            "name": "colorBaseSystemWarningLight",
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "system",
+              "subitem": "warning",
+              "state": "light"
+            },
+            "path": [
+              "color",
+              "base",
+              "system",
+              "warning",
+              "light"
+            ]
+          },
+          "dark": {
+            "value": "#f9cb40",
+            "filePath": "src/tokens/color/system.json",
+            "isSource": true,
+            "original": {
+              "value": "#f9cb40"
+            },
+            "name": "colorBaseSystemWarningDark",
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "system",
+              "subitem": "warning",
+              "state": "dark"
+            },
+            "path": [
+              "color",
+              "base",
+              "system",
+              "warning",
+              "dark"
+            ]
+          }
+        },
+        "success": {
+          "light": {
+            "value": "#69dc9e",
+            "filePath": "src/tokens/color/system.json",
+            "isSource": true,
+            "original": {
+              "value": "#69dc9e"
+            },
+            "name": "colorBaseSystemSuccessLight",
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "system",
+              "subitem": "success",
+              "state": "light"
+            },
+            "path": [
+              "color",
+              "base",
+              "system",
+              "success",
+              "light"
+            ]
+          },
+          "dark": {
+            "value": "#69dc9e",
+            "filePath": "src/tokens/color/system.json",
+            "isSource": true,
+            "original": {
+              "value": "#69dc9e"
+            },
+            "name": "colorBaseSystemSuccessDark",
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "system",
+              "subitem": "success",
+              "state": "dark"
+            },
+            "path": [
+              "color",
+              "base",
+              "system",
+              "success",
+              "dark"
+            ]
+          }
+        },
+        "error": {
+          "light": {
+            "value": "#f05345",
+            "filePath": "src/tokens/color/system.json",
+            "isSource": true,
+            "original": {
+              "value": "#f05345"
+            },
+            "name": "colorBaseSystemErrorLight",
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "system",
+              "subitem": "error",
+              "state": "light"
+            },
+            "path": [
+              "color",
+              "base",
+              "system",
+              "error",
+              "light"
+            ]
+          },
+          "dark": {
+            "value": "#f05345",
+            "filePath": "src/tokens/color/system.json",
+            "isSource": true,
+            "original": {
+              "value": "#f05345"
+            },
+            "name": "colorBaseSystemErrorDark",
+            "attributes": {
+              "category": "color",
+              "type": "base",
+              "item": "system",
+              "subitem": "error",
+              "state": "dark"
+            },
+            "path": [
+              "color",
+              "base",
+              "system",
+              "error",
+              "dark"
             ]
           }
         }

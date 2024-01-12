@@ -95,7 +95,9 @@
 .heller2-theme[data-theme-mode="light"] .h-button.h-button-primary:active {
   background: var(--color-button-light-background-states-active);
   background-color: var(--color-button-light-background-states-active);
-  transition: background 0.1s, background-color 0.1s;
+  transition:
+    background 0.1s,
+    background-color 0.1s;
 }
 
 /* Focus State | Light Mode | Primary Button */
