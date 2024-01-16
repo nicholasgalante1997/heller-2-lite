@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 12 Jan 2024 16:25:34 GMT
+ * Generated on Tue, 16 Jan 2024 05:28:31 GMT
  */
 
 export const borderOutlineNone : string;
@@ -33,6 +33,13 @@ export const colorBaseBlackTheta : string;
 export const colorBaseBlackEta : string;
 export const colorBaseBlackIota : string;
 export const colorBaseWhiteAlpha : string;
+export const colorBaseGrayAlpha : string;
+export const colorBaseGrayBeta : string;
+export const colorBaseGrayGamma : string;
+export const colorBaseGrayEpsilon : string;
+export const colorBaseGrayTheta : string;
+export const colorBaseGrayEta : string;
+export const colorBaseGrayIota : string;
 export const colorBaseGreenPrimary : string;
 export const colorBaseBluePrimary : string;
 export const colorBaseBlueSecondary : string;

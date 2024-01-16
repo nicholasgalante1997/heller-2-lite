@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 12 Jan 2024 16:25:34 GMT
+ * Generated on Tue, 16 Jan 2024 05:28:31 GMT
  */
 
 export const borderOutlineNone = "none";
@@ -33,6 +33,13 @@ export const colorBaseBlackTheta = "#171717";
 export const colorBaseBlackEta = "#011222";
 export const colorBaseBlackIota = "#020d19";
 export const colorBaseWhiteAlpha = "#ffffff";
+export const colorBaseGrayAlpha = "#343a40";
+export const colorBaseGrayBeta = "#495057";
+export const colorBaseGrayGamma = "#6c757d";
+export const colorBaseGrayEpsilon = "#adb5bd";
+export const colorBaseGrayTheta = "#ced4da";
+export const colorBaseGrayEta = "#dee2e6";
+export const colorBaseGrayIota = "#e9ecef";
 export const colorBaseGreenPrimary = "#69dc9e";
 export const colorBaseBluePrimary = "#3f37c9";
 export const colorBaseBlueSecondary = "#4361ee";

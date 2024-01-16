@@ -15,6 +15,15 @@
           "value": "#fff"
         }
       },
+      "gray": {
+        "alpha": { "value": "#343a40" },
+        "beta": { "value": "#495057" },
+        "gamma": { "value": "#6c757d" },
+        "epsilon": { "value": "#adb5bd" },
+        "theta": { "value": "#ced4da" },
+        "eta": { "value": "#dee2e6" },
+        "iota": { "value": "#e9ecef" }
+      },
       "green": {
         "primary": { "value": "#69dc9e" }
       },

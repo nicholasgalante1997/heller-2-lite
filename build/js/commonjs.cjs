@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 12 Jan 2024 16:25:34 GMT
+ * Generated on Tue, 16 Jan 2024 05:28:31 GMT
  */
 
 module.exports = {
@@ -621,6 +621,155 @@ module.exports = {
             "base",
             "white",
             "alpha"
+          ]
+        }
+      },
+      "gray": {
+        "alpha": {
+          "value": "#343a40",
+          "filePath": "src/tokens/color/base.json",
+          "isSource": true,
+          "original": {
+            "value": "#343a40"
+          },
+          "name": "colorBaseGrayAlpha",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "gray",
+            "subitem": "alpha"
+          },
+          "path": [
+            "color",
+            "base",
+            "gray",
+            "alpha"
+          ]
+        },
+        "beta": {
+          "value": "#495057",
+          "filePath": "src/tokens/color/base.json",
+          "isSource": true,
+          "original": {
+            "value": "#495057"
+          },
+          "name": "colorBaseGrayBeta",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "gray",
+            "subitem": "beta"
+          },
+          "path": [
+            "color",
+            "base",
+            "gray",
+            "beta"
+          ]
+        },
+        "gamma": {
+          "value": "#6c757d",
+          "filePath": "src/tokens/color/base.json",
+          "isSource": true,
+          "original": {
+            "value": "#6c757d"
+          },
+          "name": "colorBaseGrayGamma",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "gray",
+            "subitem": "gamma"
+          },
+          "path": [
+            "color",
+            "base",
+            "gray",
+            "gamma"
+          ]
+        },
+        "epsilon": {
+          "value": "#adb5bd",
+          "filePath": "src/tokens/color/base.json",
+          "isSource": true,
+          "original": {
+            "value": "#adb5bd"
+          },
+          "name": "colorBaseGrayEpsilon",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "gray",
+            "subitem": "epsilon"
+          },
+          "path": [
+            "color",
+            "base",
+            "gray",
+            "epsilon"
+          ]
+        },
+        "theta": {
+          "value": "#ced4da",
+          "filePath": "src/tokens/color/base.json",
+          "isSource": true,
+          "original": {
+            "value": "#ced4da"
+          },
+          "name": "colorBaseGrayTheta",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "gray",
+            "subitem": "theta"
+          },
+          "path": [
+            "color",
+            "base",
+            "gray",
+            "theta"
+          ]
+        },
+        "eta": {
+          "value": "#dee2e6",
+          "filePath": "src/tokens/color/base.json",
+          "isSource": true,
+          "original": {
+            "value": "#dee2e6"
+          },
+          "name": "colorBaseGrayEta",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "gray",
+            "subitem": "eta"
+          },
+          "path": [
+            "color",
+            "base",
+            "gray",
+            "eta"
+          ]
+        },
+        "iota": {
+          "value": "#e9ecef",
+          "filePath": "src/tokens/color/base.json",
+          "isSource": true,
+          "original": {
+            "value": "#e9ecef"
+          },
+          "name": "colorBaseGrayIota",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "gray",
+            "subitem": "iota"
+          },
+          "path": [
+            "color",
+            "base",
+            "gray",
+            "iota"
           ]
         }
       },

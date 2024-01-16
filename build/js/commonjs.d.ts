@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 12 Jan 2024 16:25:34 GMT
+ * Generated on Tue, 16 Jan 2024 05:28:31 GMT
  */
 
 export default tokens;
@@ -73,6 +73,15 @@ declare const tokens: {
       },
       "white": {
         "alpha": DesignToken
+      },
+      "gray": {
+        "alpha": DesignToken,
+        "beta": DesignToken,
+        "gamma": DesignToken,
+        "epsilon": DesignToken,
+        "theta": DesignToken,
+        "eta": DesignToken,
+        "iota": DesignToken
       },
       "green": {
         "primary": DesignToken
