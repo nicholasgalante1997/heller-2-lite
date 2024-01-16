@@ -1,5 +1,6 @@
 :root {
     --heller-alert-height: 60px;
+    --heller-alert-status-indicator-width: 40px;
 }
 
 .h-alert {
@@ -17,7 +18,9 @@
 
   > span#h-alert-severity-indicator {
     height: 100%;
-    width: 40px;
+    width: var(--heller-alert-status-indicator-width);
+    min-width: var(--heller-alert-status-indicator-width);
+    max-width: var(--heller-alert-status-indicator-width);
     box-sizing: border-box;
     margin-right: var(--size-spacing-medium-100);
   }
@@ -38,6 +41,12 @@
         max-width: 100%;
         color: var(--color-base-gray-alpha);
     }
+  }
+
+  > div[data-shrink="shrink"] {
+    width: calc(100% - 112px);
+    max-width: calc(100% - 112px);
+    min-width: calc(100% - 112px);
   }
 
   .h-alert-dismiss-icon-container {
@@ -127,4 +136,16 @@
   > div > h6[data-severity="success"] {
     color: var(--color-base-system-success-dark);
   }
+}
+
+.h-alerts-context-provider-root-mount {
+  position: fixed;
+  top: var(--size-spacing-large-100);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--size-spacing-medium-100);
+  box-sizing: border-box;
+  padding: 0px var(--size-spacing-medium-100);
 }
