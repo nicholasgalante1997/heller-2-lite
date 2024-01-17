@@ -1,6 +1,6 @@
 :root {
-    --heller-alert-height: 60px;
-    --heller-alert-status-indicator-width: 40px;
+  --heller-alert-height: 60px;
+  --heller-alert-status-indicator-width: 40px;
 }
 
 .h-alert {
@@ -35,11 +35,11 @@
     min-width: calc(100% - 48px);
 
     > p {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        max-width: 100%;
-        color: var(--color-base-gray-alpha);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 100%;
+      color: var(--color-base-gray-alpha);
     }
   }
 
@@ -64,7 +64,6 @@
 
 .h-alert,
 .heller2-theme[data-theme-mode="light"] .h-alert {
-
   border: var(--border-outline-light-medium);
 
   > span[data-severity="info"] {
@@ -98,11 +97,9 @@
   > div > h6[data-severity="success"] {
     color: var(--color-base-system-success-light);
   }
-
 }
 
 .heller2-theme[data-theme-mode="dark"] .h-alert {
-
   border: var(--border-outline-dark-medium);
 
   > span[data-severity="info"] {
