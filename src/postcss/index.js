@@ -40,7 +40,7 @@ void (async () => {
       fs.readFileSync.bind(this, filePath, { encoding: "utf-8" }),
     );
     if (cssFileReadError || !css) {
-      logger.fatal(cssFileReadError);
+      logger.fatal(cssFileReadError || new Error('POSTCSS:::CSS_FILE_READ_ERROR'));
       process.exit(1);
     }
     await attemptAsync(
@@ -90,4 +90,5 @@ void (async () => {
       };
     }
   }
+
 })();
