@@ -1,14 +1,12 @@
 {
   "name": "heller-2-lite",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "A minimal css token library.",
   "type": "module",
   "main": "build/js/esm.mjs",
   "module": "build/js/esm.mjs",
   "types": "build/js/esm.d.ts",
-  "files": [
-    "build"
-  ],
+  "files": ["build"],
   "exports": {
     ".": {
       "types": "./build/js/esm.d.ts",
